@@ -140,7 +140,6 @@ app/src/main/java/com/example/pressuremonitor/
 
 ## Known limitations
 
-- Sessions recorded before the switch from kPa to hPa are stored in kPa but will be labeled hPa.
 - Pinch-to-zoom is only available on saved sessions, not on the live graph.
 - The app does not turn Bluetooth on for you; it asks you to enable it and press Connect again.
 - Spinner animation requires the system animation scale in Developer Options to be on.
@@ -151,7 +150,3 @@ app/src/main/java/com/example/pressuremonitor/
 - Gridlines and tick labels on the chart
 - ESP32 light sleep / lower connection interval for longer battery life
 - Show the current live value as a number
-
-## License
-
-Add a license of your choice (for example MIT) and a `LICENSE` file.
